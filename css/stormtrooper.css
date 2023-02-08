@@ -72,3 +72,9 @@ p.caption{
   left: 21%;
   transform: translate(-50%, -50%);
 }
+
+.break-font {
+	font-family: 'chathura', helvetica;
+	font-size: 60px;
+	font-style: italic;
+}
