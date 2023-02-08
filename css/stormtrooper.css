@@ -17,12 +17,10 @@ h1, h2{
 }
 
 header h1{
-	color: grey;
-	font-size: 80px;
-	position: absolute;
-  	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
+	color: black;
+	opacity: 60%;
+	font-style: italic;
+	font-size: 100px;
 }
 
 main{
@@ -71,6 +69,6 @@ p.caption{
 .h1 {
   position: absolute;
   top: 75%;
-  left: 23%;
+  left: 21%;
   transform: translate(-50%, -50%);
 }
