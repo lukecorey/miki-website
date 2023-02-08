@@ -62,8 +62,15 @@ p.caption{
   width: 100%;
 }
 
-.container {
+.header-container {
   position: relative;
-
+  text-align: center;
+  color: white;
 }
 
+.h1 {
+  position: absolute;
+  top: 75%;
+  left: 23%;
+  transform: translate(-50%, -50%);
+}
