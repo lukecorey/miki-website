@@ -17,8 +17,8 @@ h1, h2{
 }
 
 header h1{
-	color: black;
-	opacity: 60%;
+	color: #1b1b1b;
+	opacity: 90%;
 	font-style: italic;
 	font-size: 100px;
 }
