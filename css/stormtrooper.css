@@ -1,5 +1,6 @@
 img{
 	width: 100%;
+	padding: 0px;
 }
 
 body{
@@ -24,14 +25,14 @@ header h1{
 }
 
 main{
-	max-width: 100%;
+	max-width: 1500px;
 	margin: 0 auto;
 	padding: 20px;
 }
 
 main img{
 	max-width: 100%;
-	border: 20px black;
+	border: 0px black;
   	border-radius: 30px;
 }
 
@@ -39,7 +40,7 @@ p.caption{
 	color: #999999;
 	font-size: 15px;
 	font-style: italic;
-	margin-top: 0;
+	margin: 0;
 	text-align: right;
 }
 
@@ -48,8 +49,31 @@ p.caption{
   align-items: center;
   justify-content: center;
   margin: 30px 0px;
+  background-color: #2d2c31;
+  padding: 30px 30px;
+  border: darkgray;
+  border-radius: 5px;
 }
 
+.container-centre{
+ 
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0px;
+  background-color: #2d2c31;
+  padding: 30px 30px;
+  border: darkgray;
+  border-radius: 5px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 10px;
+}
 
 .image {
   flex-basis: 200%;
@@ -69,7 +93,7 @@ p.caption{
 .h1 {
   position: absolute;
   top: 75%;
-  left: 21%;
+  left: 22%;
   transform: translate(-50%, -50%);
 }
 
@@ -77,4 +101,19 @@ p.caption{
 	font-family: 'chathura', helvetica;
 	font-size: 60px;
 	font-style: italic;
+	padding-top: 28px;
+}
+
+ul {
+		list-style: none;
+}
+
+ul li:before {
+		 content: "\00BB \0020";
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
