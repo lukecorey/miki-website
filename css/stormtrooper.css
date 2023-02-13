@@ -117,3 +117,11 @@ ul li:before {
   width: 33.33%;
   padding: 5px;
 }
+
+footer{
+	text-align: center;
+	padding: 0px 20px 0px;
+	font-size: 15px;
+	font-style: italic;
+	color: #999999;
+}
