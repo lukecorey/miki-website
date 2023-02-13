@@ -52,7 +52,7 @@ p.caption{
   background-color: #2d2c31;
   padding: 30px 30px;
   border: darkgray;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .container-centre{
@@ -63,7 +63,7 @@ p.caption{
   background-color: #2d2c31;
   padding: 30px 30px;
   border: darkgray;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .row {
